@@ -1,0 +1,7 @@
+.SignUp form{
+    margin: 20px;
+}
+
+.SignUp form > div{
+    border: 1px solid black;
+}

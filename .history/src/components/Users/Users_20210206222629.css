@@ -1,0 +1,13 @@
+.users .list-group{
+    border: 1px solid rgb(240, 223, 223);
+    height: 470px;
+}
+
+.users .tabpanel{
+    display: flex;
+    flex-direction: row;
+}
+
+.users .tab-content{
+    border: 1px solid black;
+}

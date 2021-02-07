@@ -1,0 +1,8 @@
+.users .list-group{
+    border: 1px solid rgb(240, 223, 223);
+    height: 470px;
+}
+
+.users .tab-content{
+border: 1px solid black;
+}

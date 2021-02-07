@@ -1,0 +1,17 @@
+.SignUp form{
+    margin: 20px;
+}
+
+.SignUp form > div{
+    /* border: 1px solid black; */
+    height: 60px;
+}
+
+.radioButton{
+    border: 1px solid black;
+    /* height: 50px; */
+}
+.radioButton div{
+    /* border: 1px solid black; */
+    margin: 0;
+}
