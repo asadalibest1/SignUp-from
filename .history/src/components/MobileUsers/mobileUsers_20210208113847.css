@@ -1,0 +1,11 @@
+.mobile-users-div{
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+.mobile-users-div p{
+    margin: 0;
+}
+.mobile-users-div a{
+    padding: 10px 5px 10px 5px;
+    margin: 0;
+}

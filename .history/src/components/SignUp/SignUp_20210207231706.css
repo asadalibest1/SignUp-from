@@ -1,0 +1,32 @@
+.SignUp form{
+    margin: 20px;
+}
+.SignUp form > div{
+    /* border: 1px solid black; */
+    height: 60px;
+}
+
+.SignUp form .radioButton{
+    /* border: 1px solid black; */
+    height: 45px;
+}
+.radioButton div{
+    /* border: 1px solid black; */
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    .SignUp form{
+        margin-top: 8vh;
+    }
+    .SignUp h2 {
+        font-size: 34px;
+    }
+    .SignUp form > div{
+        height: 70px;
+    }
+    .SignUp form button{
+        margin-top: 20px;
+    }
+
+}

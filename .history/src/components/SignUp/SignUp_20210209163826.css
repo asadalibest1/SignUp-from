@@ -1,0 +1,46 @@
+.SignUp form{
+    margin: 20px;
+}
+.SignUp form > div{
+    /* border: 1px solid black; */
+    height: 60px;
+}
+
+.SignUp form .radioButton{
+    /* border: 1px solid black; */
+    height: 45px;
+}
+.radioButton div{
+    /* border: 1px solid black; */
+    margin: 0;
+}
+
+.SignUp .alertea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.SignUp .alertea button{
+    float: right;
+    clear: both;
+    outline: none;
+    
+}
+
+@media (max-width: 800px) {
+    /* .SignUp form{
+        margin-top: 3vh;
+    } */
+    .SignUp h2 {
+        margin: 30px auto;
+        font-size: 34px;
+    }
+    .SignUp form > div{
+        height: 65px;
+    }
+    .SignUp form button{
+        margin-top: 15px;
+    }
+
+}
