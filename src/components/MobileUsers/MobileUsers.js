@@ -10,13 +10,13 @@ export default function MobileUsers() {
 
   return (
     <div className="mobile-users-div">
-      <p>
+      <div>
 
 
         {
           data.map((item, ind) => {
 
-            return <>
+            return <div key={ind}>
               <a className="list-group-item" data-bs-toggle="collapse" href={"#collapse" + ind} role="button" aria-expanded="false" aria-controls={"#collapse" + ind}>
                 <span>{ind + 1}) </span>
                 {item.name}
@@ -31,13 +31,13 @@ export default function MobileUsers() {
                   <h3>Occupation: {item.occupation}</h3>
                 </div>
               </div>
-            </>
+              </div>
 
           })
         }
 
 
-      </p>
+      </div>
 
 
     </div>

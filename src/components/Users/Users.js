@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Users.css"
 
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import {
   Data,
@@ -20,7 +20,9 @@ export default function Users() {
 
             {
               data.map((item, ind) => {
-                return <a className="list-group-item list-group-item-action" data-bs-toggle="list" href={"#target" + ind} role="tab">{item.name}</a>
+                return <a className="list-group-item list-group-item-action" data-bs-toggle="list" href={"#target" + ind} role="tab" key={ind}>
+                  {item.name}
+                  </a>
               })
             }
 

@@ -1,0 +1,14 @@
+.SignUp .alertea {
+    position: absolute;
+    top: -70px;
+    left: 0;
+    width: 100%;
+    transition: top .3s;
+}
+.SignUp .alertea button{
+    float: right;
+    clear: both;
+    border: 0;
+    background: transparent;
+    font-size: 20px;    
+}

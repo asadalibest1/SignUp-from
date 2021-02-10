@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/SignUp-Form
+/decode
+/.decode history
 /.pnp
 .pnp.js
 
